@@ -163,3 +163,4 @@ message published successfully
 CPU temp: 56.382
 ```
 
+*If you are able to see above log, Congratulations ! you are able to connect to MQTT server and publish the information to the backend*
