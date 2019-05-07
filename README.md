@@ -11,6 +11,12 @@ This repository provides How - To for sending sensor data from RaspberryPI to Io
 
 *Refer attached pics in the repo*
 
+The first step is to disable the kernel’s use of the hardware serial connection. By default, when the Raspberry Pi boots, it will use the serial connection to produce messages from the kernel and it will confuse the GSM modem. Follow the steps below
+Step 1. From Menu Select Preferences –> Raspberry Pi Configuration.
+Step 2. In this window, Select the interfaces tab and disable the serial & Serial console option.
+
+Continue with below steps
+
 # 1. Installing The Paho Client
 
 You can Install the MQTT client using PIP with the command:
